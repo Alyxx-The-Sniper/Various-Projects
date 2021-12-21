@@ -1,22 +1,16 @@
-#
-#
-#
-#
 names = ['toto', 'admin', 'guess', 'tulits', 'jason', 'oniks', 'samantha']
-names.insert(-1, 'raily')
+names.append('railey')
 
 ban_user = ['tulits', 'oniks' ]
 ban_user.append('jason')
 
-
 login = input('\nPls login your name: ').lower() #all input are transformed to lowercase
 #for BAN USER
-for name in names:
-    if login == 'tulits': #TODO: I WANT TO USE THE 'BAN_USER' HERE BUT ITERATION TRU LIST NOT WORKING
-        print(login + ( ' Not ALLOwED to enter'))
-        break # stop Iteration if condition is TRUE
-    else:
-        print(login + (' Welcome to METAVERSE!'))
-        break # stop Iteration
 
 
+if login in ban_user:
+    print(login + ' You are not allowed to enter')
+elif login in names:
+    print(login + ' Welcom to METAVERSE!!')
+else:
+    print(login + ' Account doesnt exist.Create now?')
