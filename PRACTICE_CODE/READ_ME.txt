@@ -1,1 +1,0 @@
-This a practice only project

@@ -1,7 +1,3 @@
-#
-#
-#
-#
 names = ['toto', 'admin', 'guess', 'tulits', 'jason', 'oniks', 'samantha']
 names.append('railey')
 
