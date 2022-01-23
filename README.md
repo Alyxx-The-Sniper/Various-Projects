@@ -1,3 +1,2 @@
-# Various-Projects
-# This is only a TEST repo only
+# Collection of codes sample
 
