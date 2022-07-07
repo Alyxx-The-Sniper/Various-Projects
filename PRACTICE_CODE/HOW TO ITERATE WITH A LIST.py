@@ -4,7 +4,7 @@ names.append('railey')
 ban_user = ['tulits', 'oniks' ]
 ban_user.append('jason')
 
-login = input('\nPls login your name: ').lower() #all input are transformed to lowercase
+login = input('\nPls login your name: ').lower() #all inputs will be in lowercase
 #for BAN USER
 
 

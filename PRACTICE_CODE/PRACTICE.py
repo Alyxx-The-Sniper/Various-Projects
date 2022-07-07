@@ -173,7 +173,7 @@ def middle_element(lst):
             output = (c + d) / 2
             return output
 
-print(middle_element([5, 2, -10, 10, 21, 5, 32, 99,]))
+# print(middle_element([5, 2, -10, 10, 21, 5, 32, 99,]))
 # x = [5, 2, -10, 10, 21, 5, 32, 99,55 ]
 # print(len(x))
 
